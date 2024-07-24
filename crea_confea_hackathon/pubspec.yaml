@@ -1,0 +1,39 @@
+name: crea_confea_hackathon
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  dio: ^5.4.3+1
+  google_fonts: ^6.2.1
+  image_network: ^2.5.6
+  pin_code_fields: ^8.0.1
+  brasil_fields: ^1.15.0
+  image_picker: ^1.1.2
+  google_generative_ai: ^0.4.3
+  flutter_dotenv: ^5.1.0
+  pdf: ^3.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/teste.json
+    - assets/images/wellcome.jpg
+    - .env
+    - assets/files/tos.png
+    - assets/files/template_art_sp.png
